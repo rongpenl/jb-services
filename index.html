@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-  <title>Home - JB Services</title>
+  <title>Home - JB-Services</title>
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i" />
   <link rel="stylesheet" href="assets/css/preloader.css">
@@ -35,7 +35,11 @@
     ">
 
     <div class="container">
-      <a class="navbar-brand logo" href="#">JB Services</a><button data-bs-toggle="collapse" class="navbar-toggler"
+      <a class="navbar-brand logo" href="#">
+        <img src="assets/img/new_logo.png" alt="JB Services Logo" style="height: 60px; width: auto;">
+        JB-Services
+    </a>
+      <button data-bs-toggle="collapse" class="navbar-toggler"
         data-bs-target="#navcol-1">
         <span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span>
       </button>
@@ -65,18 +69,33 @@
   </nav>
   <main class="page landing-page" , id="main">
     <section class="clean-block clean-hero" style="
-          background-image: url('assets/img/main_bg.jpg');
-          color: rgba(9, 162, 255, 0.15);
+          color: WHITE;
         ">
       <div class="text">
-        <h1 style="color:#0d6efd; background-color:white;"><a href="tel:+17783193100">John Bulick</a>, a Handyman You
-          Can Trust</h1>
-        <p style="color:#0d6efd; background-color:white;">
-          As a handyman, John Bulick has over 30 years of renovation and property maintenance experiences.
-        </p>
-        <!-- <button class="btn btn-outline-light btn-lg" type="button">
-          <a href="#services" style="background-color:white;">Learn More</a>
-        </button> -->
+        <h1 style="color:black; background-color:white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">
+            <a href="tel:+17783193100" style="text-decoration: none; color: inherit; transition: color 0.3s ease-in-out;"
+              onmouseover="this.style.color='#007bff'"
+              onmouseout="this.style.color='inherit'">John Bulick</a>
+        </h1 >
+        <p style="color:black">As a handyman, I have over 30 years of renovation and property maintenance experiences. How can I help you today? Contact me by email or phone, from small project to large. Let’s talk how my experience can help you.</p>
+      </div>
+
+    </section>
+    <section class="clean-block" id="promises">
+      <div class="container">
+        <div class="block-heading">
+          <h2 class="text-info">Promises</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-5 feature-box">
+            <i class="icon-bulb icon"></i>
+            <h4>Straightforward, reasonable rates. No hidden charges.</h4>
+          </div>
+          <div class="col-md-5 feature-box">
+            <i class="icon-pencil icon"></i>
+            <h4>I warranty all work longer than industry standard.</h4>
+          </div>
+        </div>
       </div>
     </section>
     <section class="clean-block" id="services">
@@ -107,7 +126,7 @@
             <i class="icon-drawer icon"></i>
             <h4>Assembly and Installation</h4>
             <p>
-              Assembling flat-pack furniture, installing appliances, and setting up home entertainment systems.
+              Assembling flat-pack furniture, installing appliances, mount TVs, hide cables for clean finish, etc.
             </p>
           </div>
           <div class="col-md-5 feature-box">
@@ -119,7 +138,8 @@
           </div>
         </div>
       </div>
-      <section class="projects-horizontal" id="projects">
+    </section>
+    <section class="projects-horizontal" id="projects">
         <div class="container">
           <div class="intro">
             <h2 class="text-center">Projects</h2>
@@ -128,26 +148,24 @@
             </p>
           </div>
           <div class="row projects">
-            <div class="col-sm-6 item card border-info bg-light">
+            <div class="col-sm-12 item card border-info bg-light">
               <div class="row card-body">
-                <div class="col-md-12 col-lg-6">
-                  <a><img class="img-fluid" src="assets/img/project2.png" /></a>
+                <div class="col-md-12 col-lg-9">
+                  <a><img class="img-fluid" src="assets/img/project1.png" /></a>
                 </div>
                 <div class="col">
-                  <h3 class="name">Drywall Repairing</h3>
+                  <h3 class="name">Fireplace Rennovation</h3>
                   <hr />
-                  <p class="description">
-                    Address issues such as holes, cracks, water damage, and general wear and tear in the drywall.
-                    Ensures the restoration of walls and ceilings to a pristine condition, enhancing both the aesthetic
-                    and structural integrity of the home.
-                  </p>
+                  <h2 class="description">
+                    This project involves the complete renovation of an existing fireplace. The work includes cleaning and repairing the firebox, updating the mantel and hearth for a modern look, and installing energy-efficient fire inserts. Special attention is given to ensuring the fireplace's safety and compliance with local building codes, while enhancing its efficiency and aesthetic appeal.
+                  </h2>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 item card border-info bg-light">
+            <div class="col-sm-12 item card border-info bg-light">
               <div class="row card-body">
-                <div class="col-md-12 col-lg-8">
-                  <a><img class="img-fluid" src="assets/img/project1.png" /></a>
+                <div class="col-md-12 col-lg-9">
+                  <a><img class="img-fluid" src="assets/img/project2.png" /></a>
                 </div>
                 <div class="col">
                   <h3 class="name">Floor Installation</h3>
@@ -159,40 +177,39 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 item card border-info bg-light">
+            <div class="col-sm-12 item card border-info bg-light">
               <div class="row card-body">
-                <div class="col-md-12 col-lg-6">
+                <div class="col-md-12 col-lg-9">
                   <a><img class="img-fluid" src="assets/img/project3.png" /></a>
                 </div>
                 <div class="col">
-                  <h3 class="name">Basic Carpentry</h3>
+                  <h3 class="name">Kitchen Rennovation</h3>
                   <hr />
                   <p class="description">
-                    Customized drawer, shelves and closet building and installation. Tailored to meet the specific
-                    storage and aesthetic needs of the client, this service aims to enhance the functionality and visual
-                    appeal of living spaces through skillful craftsmanship.
+                    This project involves the complete renovation of an existing kitchen. The work includes removing the
+                    existing cabinets, countertops, and appliances, and installing new cabinets, countertops, and
+                    appliances as chosen by the homeowner.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 item card border-info bg-light">
+            <div class="col-sm-12 item card border-info bg-light">
               <div class="row card-body">
-                <div class="col-md-12 col-lg-6">
-                  <a><img class="img-fluid" src="assets/img/project4.jpeg" /></a>
+                <div class="col-md-12 col-lg-9">
+                  <a><img class="img-fluid" src="assets/img/project4.png" /></a>
                 </div>
                 <div class="col">
                   <h3 class="name">Furniture Assembly and Installation</h3>
                   <hr />
                   <p class="description">
-                    Professional assistance in setting up furnitures, ensuring safe and proper assembly, especially for
-                    those needs to be anchored to the wall for safety.
+                    This project involves assembling and installing furniture as chosen by the homeowner. The image shows the installation of a floating bench.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+    </section>
     </section>
     <section class="about-us" id="callme">
       <!DOCTYPE html>
@@ -224,15 +241,11 @@
     </section>
   </main>
   <!----------------Page Footer------------------->
-  <!-- <footer class="page-footer dark">
+  <footer class="page-footer bright">
     <div style="padding-left: 40vw; font-weight: 600">
-      © 2021 Copyright JB-Services
+      © 2024 Copyright JB-Services
     </div>
-    <p></p>
-    <!-- <div class="footer-copyright bg-primary my-5">
-            
-        </div> -->
-  </footer> -->
+  </footer>
   <!----------------Page Footer------------------->
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
